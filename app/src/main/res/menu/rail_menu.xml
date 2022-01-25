@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="List1"
+        android:id="@+id/list1"
+        android:icon="@drawable/ic_baseline_3d_rotation_24"
+        android:enabled="true"/>
+
+    <item
+        android:title="List2"
+        android:id="@+id/list2"
+        android:icon="@drawable/ic_baseline_6_ft_apart_24"
+        android:enabled="true"/>
+
+    <item
+        android:title="List3"
+        android:id="@+id/list3"
+        android:icon="@drawable/ic_baseline_ac_unit_24"
+        android:enabled="true"/>
+
+    <item
+        android:title="List4"
+        android:id="@+id/list4"
+        android:icon="@drawable/ic_baseline_account_balance_24"
+        android:enabled="true"/>
+
+    <item
+        android:title="List5"
+        android:id="@+id/list5"
+        android:icon="@drawable/ic_baseline_ad_units_24"
+        android:enabled="true"/>
+
+</menu>

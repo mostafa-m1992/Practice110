@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Item1"
+            android:id="@+id/item1"
+            android:icon="@drawable/ic_baseline_airplanemode_active_24"/>
+
+        <item
+            android:title="Item2"
+            android:id="@+id/item2"
+            android:icon="@drawable/ic_baseline_ac_unit_24"/>
+
+        <item
+            android:title="Item3"
+            android:id="@+id/item3"
+            android:icon="@drawable/ic_baseline_account_balance_24"/>
+
+    </group>
+
+    <item android:title="Other">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="Item4"
+                    android:id="@+id/item4"
+                    android:icon="@drawable/ic_baseline_add_photo_alternate_24"/>
+                <item
+                    android:title="Item5"
+                    android:id="@+id/item5"
+                    android:icon="@drawable/ic_baseline_add_road_24"/>
+                <item
+                    android:title="Item6"
+                    android:id="@+id/item6"
+                    android:icon="@drawable/ic_baseline_all_inclusive_24"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:title="final">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:title="Item7"
+                    android:id="@+id/item7"
+                    android:icon="@drawable/ic_baseline_6_ft_apart_24"/>
+                <item
+                    android:title="Item8"
+                    android:id="@+id/item8"
+                    android:icon="@drawable/ic_baseline_3d_rotation_24"/>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
